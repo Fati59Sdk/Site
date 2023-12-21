@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./inscription.css">
+    <title>Inscription</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="./page_accueil.html">
+            <img id="logo" src="./images/logo3.png" alt="logo">
+        </a>
+        <nav>
+            <link rel="stylesheet" href="./page_accueil.html">
+            <a href="./page_accueil.html"><i id="icons" class="fa-solid fa-house"
+                    style="color:rgba(255, 0, 0, 0.47);"></i></a>
+            <a href="./page_accueil.html"><button>Home</button></a>
+            <a href="./Carroussellep2.html"><button>Nos Experiences immersives</button></a>
+            <a href="./inscription.html"><button>Inscription</button></a>
+            <a href="e-shop.html"><button>E-Shop</button></a>
+            <a href="./panier.html"><i id="icons" class="fa-solid fa-cart-shopping"
+                    style="color:rgba(255, 0, 0, 0.47);"></i></a>
+            <a href="./connexion2.html"><i id="icons" class="fa-solid fa-user" style="color:rgba(255, 0, 0, 0.47);">
+                    <link rel="stylesheet" href="./connexion2.html">
+                </i></a>
+        </nav>
+    </header>
+
+    <section>
+        
+    <h1 >Inscription</h1>
+<form action=""method="get">
+
+        <h1>Inscription</h1>
+
+        <form action="" method="get">
+
+    <label for="e-mail"> 
+    
+    <input type="email" name="E-mail" placeholder="E-mail" style="background-color: rgba(255, 0, 0, 0.47);"><br>
+    </label><br>
+
+                <input type="text" name="lastName" placeholder="Nom" style="background-color: rgba(255, 0, 0, 0.47);">
+                <br>
+            </label><br>
+
+            <label for="firstName">
+
+                <input type="text" name="firstName" placeholder="Prénom"
+                    style="background-color: rgba(255, 0, 0, 0.47);"><br>
+            </label><br>
+
+            <label for="e-mail">
+
+                <input type="email" name="e-mail" placeholder="E-mail"
+                    style="background-color: rgba(255, 0, 0, 0.47);"><br>
+
+
+            </label><br>
+
+            <label for="Mot de passe">
+
+                <input type="password" name="Mot de passe" placeholder="Mot de passe"
+                    style="background-color: rgba(255, 0, 0, 0.47);"><br>
+
+            </label><br>
+            <label for="Confirmermdp">
+
+                <input type="password" name="Confirmermdp" placeholder="Confirmez le mot de passe"
+                    style="background-color: rgba(255, 0, 0, 0.47);"><br>
+
+            </label><br>
+
+            <br>
+        </form>
+    </section>
+
+    <i style="color:whitesmoke;"></i>
+    <button class="btn" id="screamButton"><a href="./connexion2.html"></a>Valider</button>
+
+    <audio id="screamAudio" src="./high-quality-monster-screech-65012.mp3"></audio>
+
+    <script>
+        // Récupérer l'élément bouton et l'élément audio
+        var screamButton = document.getElementById('screamButton');
+        var screamAudio = document.getElementById('screamAudio');
+
+        // Ajouter un gestionnaire d'événements pour le clic sur le bouton
+        screamButton.addEventListener('click', playScream);
+
+        // Fonction pour jouer le scream
+        function playScream() {
+            // Vérifier si l'audio est déjà en cours de lecture, l'arrêter
+            if (!screamAudio.paused) {
+                screamAudio.pause();
+                screamAudio.currentTime = 0;
+            }
+
+            // Jouer le scream
+            screamAudio.play();
+        }
+    </script>
+
+    <!-- Start of moi1783 Zendesk Widget script -->
+    <script id="ze-snippet"
+        src="https://static.zdassets.com/ekr/snippet.js?key=385b0860-01b5-4256-8d80-14c65545a5b0"> </script>
+    <!-- End of moi1783 Zendesk Widget script -->
+
+    <div class="gif"><img src="./images/films-d-horreur-fantastique-gif-5c8d75339987c.gif" alt="gif">
+    </div>
+
+
+    <br>
+
+    <footer>
+        <button>Mentions Légales</button>
+        <button>Forum</button>
+        <button>Newsletter</button>
+        <a href="./Contact.html"><button>Contact</button></a>
+        <i id="icon" class="fa-brands fa-facebook"></i>
+        <i id="icon" class="fa-brands fa-instagram"></i>
+        <i id="icon" class="fa-brands fa-tiktok"></i>
+        <i id="icon" class="fa-brands fa-twitter"></i>
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/ebc71ce396.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scream Effect</title>
+</head>
+<body>
+
+<button id="screamButton">Cliquez pour le scream</button>
+
+<audio id="screamAudio" src="./high-quality-monster-screech-65012.mp3"></audio>
+
+<script>
+  // Récupérer l'élément bouton et l'élément audio
+  var screamButton = document.getElementById('screamButton');
+  var screamAudio = document.getElementById('screamAudio');
+
+  // Ajouter un gestionnaire d'événements pour le clic sur le bouton
+  screamButton.addEventListener('click', playScream);
+
+  // Fonction pour jouer le scream
+  function playScream() {
+    // Vérifier si l'audio est déjà en cours de lecture, l'arrêter
+    if (!screamAudio.paused) {
+      screamAudio.pause();
+      screamAudio.currentTime = 0;
+    }
+
+    // Jouer le scream
+    screamAudio.play();
+  }
+</script>
+
+</body>
+</html>

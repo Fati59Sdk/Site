@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'a_charming_font_expandedRg';
+    src: url('./Font/achafexp-webfont.woff2') format('woff2'),
+         url('./Font/achafexp-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-image: url(./images/maisonbackgr.png);
+    background-size: cover;
+}
+
+#logo {
+    width: 200px;
+}
+
+button {     
+    align-items: flex-start; 
+    font-size: 20px; 
+    border-radius: 30px; 
+    background-color: rgba(128, 128, 128, 0.39); 
+    color: rgb(218, 202, 202); 
+} 
+
+nav {   
+    text-align: center;
+    margin: 0;
+    margin-top: 0px; 
+}
+
+section {
+   justify-content: center;
+}
+
+button {
+    font-size: 50px;
+}
+
+
+body{
+    background-image: url(./images/MicrosoftTeams-image.png);
+    background-size: cover;
+}
+#logo{
+    width: 200px;
+    position: absolute;
+    left: 0%;
+}
+
+#icons{
+    font-size: 25px;
+    color: rgb(131, 8, 8);
+}
+#icon{
+    font-size: 25px;
+    color: rgb(131, 0, 0);
+}
+
+
+h2{
+    font-family: 'a_charming_font_expandedRg';
+    font-size: 70px;
+    color: red;
+    text-decoration: solid;
+}
+
+main{
+    color: aliceblue;
+    font-style: italic;
+    text-align: center;
+    height: 700px;
+}
+header{
+    text-align: center;
+    font-size: 80px;
+    margin: 0%;
+    margin-top: 0px; 
+}
+
+.section {
+   
+    font-size: 40px;
+    width: 45%;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    /* border-style: none; */
+    background-color: rgba(128, 128, 128, 0.39);
+}
+
+button a, a:visited{
+    color: white;
+    text-decoration: none;
+}
+#start{
+    color:red;
+    font-family: 'a_charming_font_expandedRg';
+    font-size: 90px;
+    position: absolute;
+    left: 200px;
+}
+/* #chance{
+    font-family: 'a_charming_font_expandedRg';
+    font-size: 90px;
+    position: absolute;
+    right: 15%;
+    bottom:-10%;
+     */
+
+#ticket{
+    font-size: 35px;
+    position: absolute;
+    right: 0%;
+}
+footer{
+    align-items: end;
+    text-align: center;
+    margin: 0;
+    font-size: 70px;
+}
+
+#maison {
+   top: -50%;
+   position:relative;
+   right: -25%;
+
+}

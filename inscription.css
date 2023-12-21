@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'a_charming_font_expandedRg';
+    src: url('./Font/achafexp-webfont.woff2') format('woff2'),
+         url('./Font/achafexp-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    position: center;
+}
+
+body{
+    background-image: url(./images/MicrosoftTeams-image.png);
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    font-size: 80px;
+    margin: 0%;
+    margin-top: 0%;
+}
+#logo{
+    width: 200px;
+    position: absolute;
+    left: 0%;
+}
+
+#icons{
+    font-size: 25px;
+    color: rgb(131, 8, 8);
+}
+#icon{
+    font-size: 25px;
+    color: rgb(131, 0, 0);
+}
+
+h1{
+    font-family: 'a_charming_font_expandedRg';
+    font-size: 120px;
+    color: rgb(131, 0, 0);
+    text-decoration: solid;
+    position: center;
+    margin-bottom: -20px;
+    
+}
+
+button{
+    align-items: flex-start;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.39);
+    color: rgb(218, 202, 202);
+    
+}
+
+nav{
+    text-align: center;
+    margin: 0;
+    margin-top: 0px;
+}
+
+section {
+    margin-right: 35%;
+}
+
+form , h1{
+    color: rgb(131, 0, 0);
+    font-style: italic;
+    text-align: center; 
+}
+
+.btn {
+    background-color:rgb(131, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    margin-left: 60%;
+  }
+
+.btn:hover {
+    background-color: rgba(255, 250, 250, 0.729);
+    color: white;
+    position: relative;
+    width: 150;
+    height: 40px;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    background-color: #000000a2;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+.gif {
+    position:relative;
+    text-align: right;
+    top: -500px;
+    left: 1050px;
+    border-radius: 30%;
+    width: 300px;
+
+}
+
+footer{
+    align-items: end;
+    text-align: center;
+    margin: 0;
+    font-size: 70px;
+}

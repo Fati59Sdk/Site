@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'a_charming_font_expandedRg';
+    src: url('./Font/achafexp-webfont.woff2') format('woff2'),
+         url('./Font/achafexp-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-image: url(./images/MicrosoftTeams-image.png);
+    background-size: cover;
+}
+#logo{
+    width: 200px;
+    position: absolute;
+    left: 0%;
+}
+#icons{
+    font-size: 25px;
+}
+#icon{
+    font-size: 25px;
+}
+h2{
+    font-family: 'a_charming_font_expandedRg';
+    text-align: center;
+    font-size: 110px;
+    color: red;
+    text-decoration: solid;
+    position: absolute;
+    right: 60%;
+    top:2%;
+    margin-top: 10%;
+    margin-bottom: 35%;
+
+}
+main{
+    color: aliceblue;
+    font-style: italic;
+    text-align: center;
+    height: 700px;
+}
+
+header{
+    text-align: center;
+    font-size: 80px;
+    margin: 0%;
+    margin-top: 0px; 
+}
+p {
+    text-align: center;
+    /* position:absolute; */
+    font-size: 55px;
+}
+button {
+    font-size: 20px;
+    border-radius: 30px;
+    color: white;
+    /* border-style: none; */
+    background-color: rgba(128, 128, 128, 0.39);
+}
+nav{
+    text-align: center;
+    margin: 0;
+    margin-top: 0px;
+    color: white;
+}
+
+button a, a:visited{
+    color: white;
+    text-decoration: none;
+} 
+#start{
+    color: red;
+    background-color: rgb(238, 238, 238);
+    font-family: 'a_charming_font_expandedRg';
+    font-size: 90px;
+    position: absolute;
+    right: 20%;
+    bottom: -15%;
+   
+}
+footer{
+    align-items: end;
+    text-align: center;
+    margin: 0;
+    font-size: 70px;
+}
+.vidéo {
+    display: flex;
+    width: 80%;
+    height: 500px;
+    padding: 10%;
+    justify-content: center;
+    margin-top: 8%;
+    margin-left: 10%;
+    
+}
+.text{
+    
+    margin-left: 10%;
+    justify-content: space-between;
+    font-family:'a_charming_font_expandedRg' ;
+    font-style: italic;
+    color: rgb(247, 247, 247);
+    text-align:center;
+    width: 55%;
+}
+div {
+   float: right;
+}

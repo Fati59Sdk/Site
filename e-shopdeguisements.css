@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'a_charming_font_expandedRg';
+    src: url();
+    font-family: 'a_charming_font_expandedRg';
+    src: url('./Font/achafexp-webfont.woff2') format('woff2'),
+         url('./Font/achafexp-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    position: center;
+  }
+
+  body {
+      background-image: url(./images/maisonbackgr.png);
+      background-size: cover;
+  }
+   
+   
+   
+  header {
+      text-align: center;
+      font-size: 80px;
+      margin: 0%;
+      margin-top: 0%;
+  }
+
+  #logo {
+      width: 200px;
+      position: absolute;
+      left: 0%;
+  }
+   
+
+  #icons {
+      font-size: 20px;
+      color: red;
+  }
+
+  
+  p { 
+    color: rgb(215, 116, 17);
+    justify-content: space-between;
+    align-items: center;
+    
+  
+  }
+  
+ 
+  p {
+    color: rgb(215, 116, 17);
+    justify-content: space-between;
+    align-items: center;
+   
+ 
+  }
+ 
+  img {
+      width: 150px;
+      height: 150px;
+      border-radius: 30px;
+      justify-content: space-between;
+      align-items: center;
+      
+  }
+  
+  .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 25%;
+      padding: 10px;
+    }
+    #expandedImg {
+      width: 100%;
+      height: 500px;
+    }
+    /* Style the images inside the grid */
+    .column img {
+      opacity: 0.8;
+      cursor: pointer;
+
+    }
+    
+    .column img:hover {
+      opacity: 1;
+    }
+    
+    /* Clear floats after the columns */
+   
+    .column img:hover {
+      opacity: 1;
+    }
+   
+    /* Clear floats after the columns */
+   
+    /* The expanding image container (positioning is needed to position the close button and the text) */
+    .container {
+      position: relative;
+      display: none;
+      width: 50%;
+      margin: auto;
+    }
+
+    /* Expanding image text */
+    #imgtext {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      color: white;
+      font-size: 20px;
+    }
+
+    /* Closable button inside the image */
+    .closebtn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      color: white;
+      font-size: 35px;
+      cursor: pointer;
+    }   
+  
+    button {
+      font-size: 20px; 
+      border-radius: 30px; 
+      background-color: rgba(128, 128, 128, 0.39); 
+      color: rgb(218, 202, 202);
+    }
+ 
+    button {
+      font-size: 20px;
+      border-radius: 30px;
+      background-color: rgba(128, 128, 128, 0.39);
+      color: rgb(218, 202, 202);
+    }
+
+    footer{
+      align-items: end;
+      text-align: center;
+      margin-top: 12%;
+      font-size: 70px;
+  }
+
+  #icon {
+    font-size: 20px;
+    color:red;
+  }
+
+  label {
+    color: rgb(201, 150, 114);
+    font-size: 20px;
+  }

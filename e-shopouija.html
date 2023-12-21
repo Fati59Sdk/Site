@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./e-shopouija.css">
+  <title>E-shop Ouija</title>
+</head>
+
+<body>  
+    <header>
+        <a href="./page_accueil.html">
+            <img id="logo" src="./images/logo3.png" 
+            alt="logo">
+        </a>
+        <nav>
+          <link rel="stylesheet" href="./page_accueil.html">
+            <a href="./page_accueil.html"><i id="icons" class="fa-solid fa-house" 
+            style="color: red;"></i></a>
+            <a href="./page_accueil.html"><button>Home</button></a>
+            <a href="./Carroussellep2.html"><button>Nos Experiences immersives</button></a>
+            <a href="./inscription.html"><button>Inscription</button></a>
+            <a href="./e-shop.html"><button>E-Shop</button></a>
+            <a href="./panier.html"><i id="icons" 
+            class="fa-solid fa-cart-shopping" 
+            style="color:red;"></i></a>
+            <a href="./connexion2.html"><i id="icons" 
+            class="fa-solid fa-user" 
+            style="color: red;"></i></a>
+        </nav>
+    </header> 
+
+    <main>
+      <div class="row">
+        <div class="column">
+          <p>En stock</p>
+          <img src="./images/planche_ouija_1-removebg-preview.png" 
+          alt="Planche1" onclick="myFunction(this);">
+          <p>PRIX 20€</p>
+          <form method="get" action="" id="produit1">
+            <label>Quantité</label>
+            <select name = "quantité" id="quantiteProduit1">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select><br><br><br>
+            <input type="submit" value="Ajouter au panier">
+          </form>
+
+          <a href="./panier.html"><button 
+            onclick="remove()">Supprimer</button></a>
+        </div>
+
+        <div class="column">
+          <p>En stock</p>
+          <img src="./images/ouija2.png" 
+          alt="Planche2" onclick="myFunction(this);">
+          <p>PRIX 20€</p>
+          <form>
+            <label>Quantité</label>
+            <select name = "quantité">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </form><br><br>
+          <a href="./panier.html"><button>Ajouter au panier</button></a>
+          <button>Supprimer</button>
+        </div>
+
+        <div class="column">
+          <p>En stock</p>
+          <img src="./images/planche_ouija_3-removebg-preview.png" 
+          alt="Planche3" onclick="myFunction(this);">
+          <p>PRIX 20€</p>
+          <form>
+            <label>Quantité</label>
+            <select name = "quantité">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </form><br><br>
+          <a href="./panier.html"><button>Ajouter au panier</button></a>
+          <button>Supprimer</button>
+        </div> 
+      </div>
+
+  <!--The expanding image container-->
+      <div class="container">
+    <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" 
+        class="closebtn">&times;</span>
+
+    <!-- Expanded image -->
+        <img id="expandedImg">
+
+    <!-- Image text -->
+        <div id="imgtext"></div>
+      </div>
+    </main>
+
+    <footer>
+      <button>Mentions Légales</button>
+      <button>Forum</button>
+      <button>Newsletter</button>
+      <a href="./Contact.html"><button>Contact</button></a>
+      <i id="icon" class="fa-brands fa-facebook"></i>
+      <i id="icon" class="fa-brands fa-instagram"></i>
+      <i id="icon" class="fa-brands fa-tiktok"></i>
+      <i id="icon" class="fa-brands fa-twitter"></i>
+
+  </footer>
+
+  <script src="https://kit.fontawesome.com/ebc71ce396.js" 
+  crossorigin="anonymous">
+  </script>
+  <script src="./main.js"></script>
+  <script src="./e-shopouija.js"></script>
+
+</body>
+</html>

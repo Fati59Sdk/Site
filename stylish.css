@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'a_charming_font_expandedRg';
+    src: url('./Font/achafexp-webfont.woff2') format('woff2'),
+         url('./Font/achafexp-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    background-image: url(./MicrosoftTeams-image.png);
+    background-size:cover;
+    text-decoration: none;
+    
+ }
+
+header {
+    text-align: center;
+    font-size: 80px;
+    margin: 10%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    text-decoration: none;
+}
+
+#logo{
+    width: 200px;
+    position: absolute;
+    left: 0%;
+}
+#icons{
+    font-size: 25px;
+    color: rgb(131, 8, 8);
+}
+#icon{
+    font-size: 25px;
+    color: rgb(131, 0, 0);
+}
+
+h1{
+    font-family: 'a_charming_font_expandedRg';
+    font-size: 80px;
+    color: rgb(131, 0, 0);
+    text-decoration: solid;
+    position: absolute;
+    margin-top: -8%;
+    right:60%;
+    
+}
+
+#text{
+
+    color: rgb(247, 247, 247);
+    text-align:center;
+    font-size:55px;
+    width: 55%;
+    font-style: italic;
+    font-family:'a_charming_font_expandedRg' ;
+    position: absolute;
+    right: 30px;
+    bottom: -30%;
+    justify-content: space-between;
+    margin-bottom:25%;
+
+}
+    
+    
+
+#start{
+    font-size: 45px;
+    border-radius:20px;
+    color: rgb(244, 0, 0);
+    background-color: rgb(238, 238, 238);
+    font-style: italic;
+    font-family:'a_charming_font_expandedRg';
+    margin-top:5%;
+    margin-left:60%;
+    text-decoration: none;
+    
+
+    
+
+}
+
+
+button{
+    align-items: flex-start;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.39);
+    color:rgb(218, 202, 202);
+    text-decoration: none;
+    
+}
+
+nav{
+    text-align: center;
+    margin: 0;
+    margin-top: 0px;
+    text-decoration: none;
+}
+
+#button{
+   margin-bottom: 150px;
+   height:100%;
+   text-align:center;
+   margin-top:-200px;
+   text-decoration: none;
+   color: white;
+}
+
+#video{
+    margin-left:50px;
+    margin-top:5%;
+    font-size: 0%;
+    justify-content: space-around;
+    
+}
+
+i{
+    font-size: 20px;
+    border-radius: 45px;
+    color:rgb(222, 9, 9);
+    font-style:italic;
+    font-family:'a_charming_font_expandedRg';
+    text-decoration: none;
+    
+}
+
+#button2 {
+ margin-top: 74px;
+ margin-left:750px;
+ text-decoration: none;
+}
+
+#icon2{
+    margin-left:1090px;
+    margin-top:-20px;
+}
+
+footer{
+    align-items: end;
+    text-align: center;
+    margin: 0;
+    font-size: 70px;
+    text-decoration: none;
+}
